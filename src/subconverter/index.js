@@ -9,4 +9,5 @@ const string = stringify(object);
 const profileURL = `http://127.0.0.1:25500/sub?${string}`;
 writeSync(profileURL);
 
+// eslint-disable-next-line no-console
 console.log(profileURL);
