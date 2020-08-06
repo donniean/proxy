@@ -17,7 +17,6 @@
 - [rixCloud](https://rixcloud.com/)
 - [魅影极速](https://maying.co/)
   - [docs](https://docs.maying.co/)
-- [喵帕斯](https://www.xn--i2ru8q2qg.com/)
 - [Just My Socks](https://justmysocks.net/)
 
 ---
