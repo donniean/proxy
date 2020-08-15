@@ -45,6 +45,9 @@ git config --global --get https.proxy
 ```shell
 git config --global http.proxy 'socks5://127.0.0.1:SOCKS5_PORT'
 git config --global https.proxy 'socks5://127.0.0.1:SOCKS5_PORT'
+
+git config --global http.proxy 'http://127.0.0.1:HTTP_PORT'
+git config --global https.proxy 'http://127.0.0.1:HTTP_PORT'
 ```
 
 ```shell
