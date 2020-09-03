@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/acmilank22/proxy#readme",
+  "homepage": "https://github.com/donniean/proxy#readme",
   "bugs": {
-    "url": "https://github.com/acmilank22/proxy/issues"
+    "url": "https://github.com/donniean/proxy/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acmilank22/proxy.git"
+    "url": "git+https://github.com/donniean/proxy.git"
   },
   "license": "MIT",
   "author": "",
