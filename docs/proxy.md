@@ -109,7 +109,7 @@ $HOME/.npmrc
 ```
 
 ```ini
-proxy=http://127.0.0.1:HTTP_PORT/
+proxy=http://127.0.0.1:HTTP_PORT
 https-proxy=http://127.0.0.1:HTTP_PORT
 ```
 
