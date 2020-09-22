@@ -15,16 +15,11 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "commit": "git-cz",
+    "prettier": "npx prettier \"**/*.{js,ts,jsx,tsx,json,html,vue,css,less,scss,md,yaml}\"",
     "eslint": "npx eslint --fix \"**/*.{js,jsx,html,vue}\"",
-    "lint": "npm run prettier && npm run eslint",
-    "prettier": "npx prettier \"**/*.{js,jsx,ts,tsx,html,vue,css,scss,json,md}\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "lint": "npm run eslint && npm run prettier",
+    "cspell": "cspell \"**/*\"",
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
@@ -37,20 +32,21 @@
     "qs": "^6.9.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "babel-eslint": "^10.1.0",
-    "commitizen": "^4.1.2",
-    "cz-conventional-changelog": "^3.2.0",
-    "eslint": "^7.6.0",
+    "commitizen": "^4.2.1",
+    "cspell": "^4.1.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-html": "^6.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
   }
 }
