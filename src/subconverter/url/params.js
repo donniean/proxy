@@ -1,3 +1,5 @@
+const urls = [];
+
 module.exports = {
-  url: '',
+  url: urls.length > 0 ? urls.join('|') : '',
 };
