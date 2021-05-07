@@ -8,6 +8,7 @@
     "commitlint",
     "commitlintrc",
     "configsrc",
+    "contenthash",
     "cosmiconfig",
     "devtool",
     "donniean",
@@ -20,6 +21,8 @@
     "htmlhint",
     "htmlhintrc",
     "huskyrc",
+    "immer",
+    "iphonex",
     "lintstagedrc",
     "miniprogram",
     "prettierignore",
@@ -30,8 +33,7 @@
     "todos",
     "webpackbar",
     "webstorm",
-    "wechat",
-    "subconverter"
+    "wechat"
   ],
   "ignorePaths": [
     "**/.idea/**",
